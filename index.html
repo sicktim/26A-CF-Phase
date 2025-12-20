@@ -1548,14 +1548,14 @@ f16_pilot: {
                         title: "AB MALFUNCTION ON TAKEOFF (TAKEOFF CONTINUED)",
                         steps: [
                             { num: 1, answers: ["THROTTLE - MIL", "THROTTLE MIL", "THROT MIL", "THROT - MIL"] },
-                            { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Required)" }
+                            { num: 2, answers: ["STORES - JETT", "STORES JETT", "STORES - JETTISON", "STORES JETTISON"], comment: "(If Required)" }
                         ]
                     },
                     {
                         title: "ENGINE FAILURE ON TAKEOFF (TAKEOFF CONTINUED)",
                         steps: [
                             { num: 1, answers: ["ZOOM"] },
-                            { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Possible)" },
+                            { num: 2, answers: ["STORES - JETT", "STORES JETT", "STORES - JETTISON", "STORES JETTISON"], comment: "(If Possible)" },
                             { num: 3, answers: ["EJECT"] }
                         ]
                     },
@@ -1563,14 +1563,14 @@ f16_pilot: {
                         title: "ENGINE FIRE ON TAKEOFF",
                         steps: [
                             { num: 1, answers: ["CLIMB"] },
-                            { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Required)" }
+                            { num: 2, answers: ["STORES - JETT", "STORES JETT", "STORES - JETTISON", "STORES JETTISON"], comment: "(If Required)" }
                         ]
                     },
                     {
                         title: "LOW THRUST ON TAKEOFF/LOW ALTITUDE (NON-AB, TAKEOFF CONTINUED)",
                         steps: [
                             { num: 1, answers: ["THROTTLE - AB", "THROTTLE AB", "THROT AB", "THROT - AB"] },
-                            { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Required)" },
+                            { num: 2, answers: ["STORES - JETT", "STORES JETT", "STORES - JETTISON", "STORES JETTISON"], comment: "(If Required)" },
                             { num: 3, answers: ["ENGINE CONTROL SWITCH - SEC THEN PRI", "ENG CONT SW SEC THEN PRI", "ENG CONT SWITCH SEC THEN PRI", "ENGINE CONTROL SWITCH SEC THEN PRI", "ENG CONT - SEC THEN PRI", "ENG CONT SW - SEC THEN PRI", "ENG CONT SEC THEN PRI", "ENG CONT SWITCH - SEC THEN PRI", "ECS - SEC THEN PRI", "ECS SEC THEN PRI"], comment: "If Thrust is Insufficient to Maintain Level Flight at a Safe Altitude" }
                         ]
                     },
@@ -1578,10 +1578,10 @@ f16_pilot: {
                         title: "ENGINE FAILURE/AIRSTART (GE-100/129)",
                         steps: [
                             { num: 1, answers: ["ZOOM"], comment: "(If at Low Altitude)" },
-                            { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Required)" },
+                            { num: 2, answers: ["STORES - JETT", "STORES JETT", "STORES - JETTISON", "STORES JETTISON"], comment: "(If Required)" },
                             { num: 3, answers: ["ENGINE CONTROL SWITCH - SEC THEN PRI", "ENG CONT SW SEC THEN PRI", "ENG CONT SWITCH SEC THEN PRI", "ENGINE CONTROL SWITCH SEC THEN PRI", "ENG CONT - SEC THEN PRI", "ENG CONT SW - SEC THEN PRI", "ENG CONT SEC THEN PRI", "ENG CONT SWITCH - SEC THEN PRI", "ECS - SEC THEN PRI", "ECS SEC THEN PRI"] },
-                            { num: 4, answers: ["AIRSPEED AS REQUIRED", "AIRSPEED AS REQ", "AIRSPEED - AS REQUIRED", "AIRSPEED - AS REQ", "A/S - A/R", "AIRSPEED - A/R", "AIRSPEED - AR", "A/S - AS REQUIRED", "A/S - AS REQ", "A/S AS REQ", "A/S AS REQUIRED"] },
-                            { num: 5, answers: ["JFS START 2", "JFS - START 2"], comment: "(When below 20,000 Feet and 400 knots)" }
+                            { num: 4, answers: ["AIRSPEED - AS REQUIRED", "AIRSPEED AS REQ", "AIRSPEED AS REQUIRED", "AIRSPEED - AS REQ", "A/S - A/R", "AIRSPEED - A/R", "AIRSPEED - AR", "A/S - AS REQUIRED", "A/S - AS REQ", "A/S AS REQ", "A/S AS REQUIRED"] },
+                            { num: 5, answers: ["JFS - START 2", "JFS START 2"], comment: "(When below 20,000 Feet and 400 knots)" }
                         ]
                     },
                     {
@@ -1590,7 +1590,7 @@ f16_pilot: {
                             { num: 1, answers: ["CONTROLS - RELEASE", "CONTROLS RELEASE", "CONTROLS - REL", "CNTLS - REL", "CNTLS - RELEASE"] },
                             { num: 2, answers: ["THROTTLE - IDLE", "THROTTLE IDLE", "THROT - IDLE", "THROT IDLE"] },
                             { num: 3, answers: ["RUDDER - OPPOSITE YAW DIRECTION", "RUDDER OPPOSITE YAW DIRECTION", "RUD - OPP YAW DIR", "RUDDER - OPP YAW DIR"], comment: "If in an Inverted Deep Stall (Analog FLCS Only)" },
-                            { num: 4, answers: ["MPO OVRD AND HOLD", "MPO - OVRD AND HOLD", "MPO SW - OVRD AND HOLD", "MPO SWITCH - OVRD AND HOLD", "MPO SW OVRD AND HOLD", "MPO SWITCH OVRD AND HOLD", "MPO - OVERRIDE AND HOLD"], comment: "If Still Out-Of-Control" },
+                            { num: 4, answers: ["MPO - OVRD AND HOLD", "MPO OVRD AND HOLD", "MPO SW - OVRD AND HOLD", "MPO SWITCH - OVRD AND HOLD", "MPO SW OVRD AND HOLD", "MPO SWITCH OVRD AND HOLD", "MPO - OVERRIDE AND HOLD"], comment: "If Still Out-Of-Control" },
                             { num: 5, answers: ["STICK - CYCLE IN PHASE", "STICK CYCLE IN PHASE"] }
                         ]
                     }
