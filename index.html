@@ -1518,7 +1518,7 @@
                     }
                 ]
             },
-            f16_pilot: {
+f16_pilot: {
                 name: "F-16 Pilot CAPs",
                 procedures: [
                     {
@@ -1562,25 +1562,16 @@
                     {
                         title: "ENGINE FIRE ON TAKEOFF",
                         steps: [
-                            { num: 1, answers: ["ZOOM"] },
-                            { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Possible)" },
-                            { num: 3, answers: ["THROTTLE - OFF", "THROTTLE OFF", "THROT - OFF", "THROT OFF"], comment: "(If Fire Confirmed)" },
-                            { num: 4, answers: ["EJECT"] }
+                            { num: 1, answers: ["CLIMB"] },
+                            { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Required)" }
                         ]
                     },
                     {
-                        title: "EJECTION",
+                        title: "LOW THRUST ON TAKEOFF/LOW ALTITUDE (NON-AB, TAKEOFF CONTINUED)",
                         steps: [
-                            { num: 1, answers: ["EJECT"] }
-                        ]
-                    },
-                    {
-                        title: "AIRSTART",
-                        steps: [
-                            { num: 1, answers: ["ZOOM"] },
+                            { num: 1, answers: ["THROTTLE - AB", "THROTTLE AB", "THROT AB", "THROT - AB"] },
                             { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Required)" },
-                            { num: 3, answers: ["THROTTLE - OFF, THEN MIDRANGE", "THROTTLE OFF THEN MIDRANGE", "THROT - OFF, THEN MIDRANGE", "THROT OFF THEN MIDRANGE", "THROTTLE - OFF THEN MIDRANGE"] },
-                            { num: 4, answers: ["AIRSPEED - 200 KNOTS MINIMUM", "AIRSPEED 200 KNOTS MIN", "AIRSPEED - 200 KTS MIN", "A/S - 200 KTS MIN"] }
+                            { num: 3, answers: ["ENG CONT SEC THEN PRI", "ENG CONT SW SEC THEN PRI", "ENG CONT SWITCH SEC THEN PRI", "ENGINE CONTROL SWITCH SEC THEN PRI", "ENG CONT - SEC THEN PRI", "ENG CONT SW - SEC THEN PRI", "ENG CONT SWITCH - SEC THEN PRI", "ENGINE CONTROL SWITCH - SEC THEN PRI", "ECS - SEC THEN PRI", "ECS SEC THEN PRI"], comment: "If Thrust is Insufficient to Maintain Level Flight at a Safe Altitude" }
                         ]
                     },
                     {
@@ -1588,8 +1579,8 @@
                         steps: [
                             { num: 1, answers: ["ZOOM"], comment: "(If at Low Altitude)" },
                             { num: 2, answers: ["STORES - JETTISON", "STORES JETT", "STORES - JETT", "STORES JETTISON"], comment: "(If Required)" },
-                            { num: 3, answers: ["ENG CONT SEC THEN PRI", "ENG CONT SW SEC THEN PRI", "ENG CONT SWITCH SEC THEN PRI", "ENGINE CONTROL SWITCH SEC THEN PRI", "ENG CONT - SEC THEN PRI", "ENG CONT SW - SEC THEN PRI", "ENG CONT SWITCH - SEC THEN PRI", "ENGINE CONTROL SWITCH - SEC THEN PRI", "ECS - SEC THEN PRI"] },
-                            { num: 4, answers: ["AIRSPEED AS REQUIRED", "AIRSPEED AS REQ", "AIRSPEED - AS REQUIRED", "AIRSPEED - AS REQ", "A/S - A/R", "AIRSPEED - A/R", "AIRSPEED - AR", "A/S - AS REQUIRED", "A/S - AS REQ"] },
+                            { num: 3, answers: ["ENG CONT SEC THEN PRI", "ENG CONT SW SEC THEN PRI", "ENG CONT SWITCH SEC THEN PRI", "ENGINE CONTROL SWITCH SEC THEN PRI", "ENG CONT - SEC THEN PRI", "ENG CONT SW - SEC THEN PRI", "ENG CONT SWITCH - SEC THEN PRI", "ENGINE CONTROL SWITCH - SEC THEN PRI", "ECS - SEC THEN PRI", "ECS SEC THEN PRI"] },
+                            { num: 4, answers: ["AIRSPEED AS REQUIRED", "AIRSPEED AS REQ", "AIRSPEED - AS REQUIRED", "AIRSPEED - AS REQ", "A/S - A/R", "AIRSPEED - A/R", "AIRSPEED - AR", "A/S - AS REQUIRED", "A/S - AS REQ", "A/S AS REQ", "A/S AS REQUIRED"] },
                             { num: 5, answers: ["JFS START 2", "JFS - START 2"], comment: "(When below 20,000 Feet and 400 knots)" }
                         ]
                     },
