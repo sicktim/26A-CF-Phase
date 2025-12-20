@@ -6599,7 +6599,7 @@ f16_pilot: {
             document.getElementById('mqf-progress-fill').style.width = `${((mqfCurrentQuestionIndex) / total) * 100}%`;
             
             // Shuffle answers
-            const shuffledAnswers = [...q.answers].sort(() => Math.random() - 0.5);
+            const shuffledAnswers = [...q.answers];
             
             document.getElementById('mqf-question-container').innerHTML = `
                 <div class="mqf-question-card">
